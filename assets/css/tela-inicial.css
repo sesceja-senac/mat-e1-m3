@@ -1,5 +1,6 @@
-body{
-  background: url('../imgs/bg-capa.png') no-repeat !important;
+body.bg-sesc{
+  background-image: url('../imgs/bg-capa.png');
+  background-repeat: no-repeat;
 }
 .menu{
   background: url('../imgs/menu.png') no-repeat;
@@ -65,11 +66,18 @@ a:hover i{color: #fff;}
 }
 
 @media screen and (max-width: 1080px){
-  body{background-size: cover !important;}
+  body.bg-sesc{
+    background-size: cover;
+    background-position: center bottom;
+  }
   .title-inical  {
     display: none;
   }
-  h2{width: 69%;}
+  h2{
+    font-size:1.6em;
+    width: 69%;
+  }
+  h2 strong{font-size: 1.3em;}
   .logo{
     background: url('../imgs/menu_mobile2.png') no-repeat;
     width: 100%;
@@ -89,10 +97,20 @@ a:hover i{color: #fff;}
   }
 }
 @media screen and (max-width: 480px){
+  body{
+    background-position: bottom center !important;
+    height: auto;
+  }
+  h2{
+    font-size:1.3em;
+    padding-top: 35px;
+  }
+  .menu{height: auto;}
   .logo{
     padding-left: 30px;
     padding-right: 20px;
-    height: 390px;
+    height: 290px;
+    padding-top: 30px;
     background-size: cover;
   }
   ul{
