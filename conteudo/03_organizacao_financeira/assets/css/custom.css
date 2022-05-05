@@ -19,14 +19,7 @@ p{word-wrap: break-word;}
 .painel-gaitinha .accordion-item {
   margin-bottom: 15px;
 }
-.tt-despesas{
-  color: #00828b;
-  background: url('../imgs/dinheiro.png') no-repeat left center, url('../imgs/dinheiro.png') no-repeat right center;
-  width: 66%;
-  margin: 20px auto;
-  padding: 18px;
-  text-align: center;
-}
+
 .box1, .box2{
   border-radius: 10px;
   background: #f1f1f1;
@@ -146,7 +139,6 @@ p{word-wrap: break-word;}
   box-shadow: 0px 2px 0px 1px #d6d6d6;
 }
 footer{display: none;}
-.tirinha{margin-bottom: 20px;}
 .tt-principal{
   text-transform: uppercase;
   color: #004f53;
@@ -162,13 +154,6 @@ footer{display: none;}
   margin-top: unset;
   z-index: 9;
 }
-.tt-modelo{
-  background: url('../imgs/tt-modelo.png') no-repeat left center;
-  padding-left: 110px;
-  color:#00828b;
-  height: 85px;
-  line-height: 85px;
-}
 .gif{
   margin: 20px auto;
   display: block;
@@ -180,7 +165,6 @@ footer{display: none;}
   margin-top: 20px;
   margin-bottom: 50px;
 }
-.tt-governo{color:#00828b;}
 .popover-header{
   margin-top: 0;
 }
@@ -254,11 +238,42 @@ footer{display: none;}
   background: url('../imgs/bt_2.png') no-repeat;
 }
 
+.sesc-audio-player.personagem{
+  background: url('../imgs/ilustracao_3.png') no-repeat;
+  width: 332px;
+  height: 368px;
+  margin: 20px auto;
+  position: relative;
+}
+.sesc-audio-player.personagem .btn-play, .sesc-audio-player.personagem .btn-pause{
+  bottom: 82px;
+  position: absolute;
+  left: 40px;
+  height: 57px;
+  width: 76px;
+  opacity: 0;
+}
+.sesc-audio-player.personagem .btn-play{display: block;}
+.sesc-audio-player.personagem .btn-pause{display: none;}
+.sesc-audio-player.personagem .btn-transcricao{
+  bottom: 20px;
+  position: absolute;
+  left: 40px;
+  height: 57px;
+  width: 76px;
+  opacity: 0;
+}
+
+
 .modal-dialog{max-width: 50%;}
 @media screen and (max-width: 1080px){
   .modal-dialog{max-width: 80%;}
 }
 @media screen and (max-width: 580px){
+  .carousel .carousel-item img{
+    margin-left: -82%;
+  }
+  .carousel-control-next, .carousel-control-prev{align-items: end;}
   .modal-dialog {max-width: 95%;}
   .dropdown, .dropend, .dropstart, .dropup{
     position: unset;

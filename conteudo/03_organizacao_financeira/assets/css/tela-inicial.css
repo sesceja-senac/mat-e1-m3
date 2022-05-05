@@ -1,6 +1,7 @@
 body.bg-sesc{
   background-image: url('../imgs/bg-capa.png');
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .menu{
   background: url('../imgs/menu.png') no-repeat;
@@ -66,10 +67,6 @@ a:hover i{color: #fff;}
 }
 
 @media screen and (max-width: 1080px){
-  body.bg-sesc{
-    background-size: cover;
-    background-position: center bottom;
-  }
   .title-inical  {
     display: none;
   }
@@ -97,9 +94,8 @@ a:hover i{color: #fff;}
   }
 }
 @media screen and (max-width: 480px){
-  body{
-    background-position: bottom center !important;
-    height: auto;
+  body.bg-sesc{
+    background-image: url('../imgs/bg-capa-mobile.png');
   }
   h2{
     font-size:1.3em;
