@@ -220,8 +220,7 @@ footer{display: none;}
 }
 
 .link-tooltip{
-  color: #ff9700;
-  text-decoration: none;
+  border-bottom: 2px dashed darkcyan;
 }
 
 .bt-modal{
