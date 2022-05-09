@@ -217,20 +217,25 @@ footer{display: none;}
 
 .link-tooltip{
   border-bottom: 2px dashed darkcyan;
+  text-decoration: none;
+  font-weight: normal;
+  color: unset;
 }
 
 .bt-modal{
-  width: 162px;
-  height: 54px;
+  width: 217px;
+  height: 75px;
   border: none;
   margin-top: 20px;
   margin-bottom: 20px;
+  transition: 1s;
 }
+.bt-modal:hover{transform: scale(1.1);}
 .bt-compostos{
-  background: url('../imgs/bt_1.png') no-repeat;
+  background: url('../imgs/bt_2.png') no-repeat;
 }
 .bt-rotativo{
-  background: url('../imgs/bt_2.png') no-repeat;
+  background: url('../imgs/bt_1.png') no-repeat;
 }
 
 .sesc-audio-player.personagem{
