@@ -651,7 +651,7 @@ button, a {
 
 }
 
-  .no-print, .nao-imprimir {
+.no-print, .nao-imprimir {
   display: none !important;
 }
 
@@ -841,7 +841,7 @@ iframe, iframe.youtube-pl{
   align-items: unset !important;
   min-height: auto !important;
   transform: none !important;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
 }
 .modal-header button{
   display: none;
