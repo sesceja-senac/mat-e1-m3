@@ -415,7 +415,7 @@ footer{display: none;}
 @media screen and (max-width: 580px){
   .painel1{
     background-image: url('../imgs/painel1_mobile.png');
-    background-size: contain;
+    background-size: cover;
     width: 100%;
     height: auto;
     display: flex;
