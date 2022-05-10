@@ -270,41 +270,45 @@ footer{display: none;}
   height: 456px;
   position: relative;
   margin: 20px auto;
+  background-size: contain;
 }
 .bt-painel1{
-  width: 99px;
-  height: 113px;
+  width: 150px;
+  height: 160px;
   position: absolute;
   border: none;
   transition: 1s;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
 }
 .bt-painel1:hover{
   transform: scale(1.1);
 }
 .bt-capital{
-  background: url('../imgs/painel1_1.png') no-repeat;
-  top: 137px;
-  left: 56px;
+  background-image: url('../imgs/painel1_1.png');
+  top: 98px;
+  left: 44px;
 }
 .bt-juro{
-  background: url('../imgs/painel1_2.png') no-repeat;
+  background-image: url('../imgs/painel1_2.png');
   top: 42px;
-  right: 192px;
+  right: 194px;
 }
 .bt-taxa{
-  background: url('../imgs/painel1_3.png') no-repeat;
-  top: 137px;
-  right: 56px;
+  background-image: url('../imgs/painel1_3.png');
+  top: 102px;
+  right: 96px;
 }
 .bt-tempo{
-  background: url('../imgs/painel1_4.png') no-repeat;
-  bottom: 51px;
-  right: 112px;
+  background-image: url('../imgs/painel1_4.png');
+  bottom: 70px;
+  right: 125px;
 }
 .bt-montante{
-  background: url('../imgs/painel1_5.png') no-repeat;
-  bottom: 45px;
-  left: 112px;
+  background-image: url('../imgs/painel1_5.png');
+  bottom: 65px;
+  left: 83px;
 }
 
 .painel2{
@@ -410,14 +414,35 @@ footer{display: none;}
 }
 @media screen and (max-width: 580px){
   .painel1{
+    background-image: url('../imgs/painel1_mobile.png');
+    background-size: contain;
     width: 100%;
     height: auto;
-    background: none;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0;
   }
-  .bt-painel1{position: unset;}
+  .bt-painel1{
+    width: 150px;
+    height: 160px;
+    position: unset;
+  }
+  .bt-capital{
+    background-image: url('../imgs/painel1_bt1_mobile.png');
+  }
+  .bt-juro{
+    background-image: url('../imgs/painel1_bt2_mobile.png');
+  }
+  .bt-taxa{
+    background-image: url('../imgs/painel1_bt3_mobile.png');
+  }
+  .bt-tempo{
+    background-image: url('../imgs/painel1_bt4_mobile.png');
+  }
+  .bt-montante{
+    background-image: url('../imgs/painel1_bt5_mobile.png');
+  }
   .painel2{
     transform: unset;
     margin-left: auto;
