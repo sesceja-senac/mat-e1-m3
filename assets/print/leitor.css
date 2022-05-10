@@ -832,7 +832,7 @@ iframe, iframe.youtube-pl{
   opacity: 1;
   height: auto !important;
   min-height: auto !important;
-  display: block !important;
+  display: none !important;
 }
 .modal-dialog, .modal-dialog.modal-dialog-centered {
   display: block !important;
