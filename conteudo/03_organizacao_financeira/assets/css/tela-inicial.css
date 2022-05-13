@@ -2,6 +2,7 @@ body.bg-sesc{
   background-image: url('../imgs/bg-capa.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
 }
 .menu{
   background: url('../imgs/menu.png') no-repeat;
@@ -96,6 +97,7 @@ a:hover i{color: #fff;}
 @media screen and (max-width: 480px){
   body.bg-sesc{
     background-image: url('../imgs/bg-capa-mobile.png');
+    background-size: unset !important;
   }
   h2{
     font-size:1.3em;
