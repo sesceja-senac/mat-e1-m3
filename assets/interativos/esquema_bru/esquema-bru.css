@@ -38,13 +38,13 @@ div.esquemaDaBru{
 
 
 */
-.esquemaDaBru .selected.certo{
+.esquemaDaBru .alt-c.selected{
     background-color: rgb(215, 235, 175);
     border-color: green;    
     color: green;
     background-image: url(ico-positive.png);    
 }
-.esquemaDaBru .selected.errado{
+.esquemaDaBru .alt-e.selected{
     background-color: rgb(235, 175, 175);  
     border-color: darkred; 
     color: darkred;

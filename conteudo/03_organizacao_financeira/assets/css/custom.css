@@ -70,7 +70,7 @@ p{word-wrap: break-word;}
 
 /* podcast */
 /* card rotate */
-.cardpreco, .cardpreco2{
+/* .cardpreco, .cardpreco2{
   position: absolute;
     left: 0;
     top: 210px;
@@ -83,7 +83,7 @@ p{word-wrap: break-word;}
 }
 .cardpreco_box{
   position: relative;
-}
+} */
 /*  */
 .caixa{
   /* border-color: #00828b; */
@@ -147,6 +147,16 @@ p{word-wrap: break-word;}
 .box2 ul i {
   color: #ff9700;
   margin-right: 5px;
+}
+
+.tooltip-link{    
+  text-decoration: underline;
+  text-decoration-color: blue;}
+.bt-tooltip {
+  border: none;
+  border-bottom: 2px dashed;
+  background: unset;
+  padding: 0;
 }
 
 .img-pessoas{
