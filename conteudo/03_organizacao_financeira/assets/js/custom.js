@@ -17,12 +17,12 @@ jQuery("document").ready(function($){
 
     $("audio").on({
         play:function(){ // the audio is playing!
-            $(".sesc-audio-player.personagem").css("background", "url('../assets/imgs/ilustracao_4.png')");
+            $(".sesc-audio-player.personagem").css("background", "url('./../conteudo/img/fig2_podcast.png')");
             $(".sesc-audio-player.personagem .btn-play").css("display", "none");
             $(".sesc-audio-player.personagem .btn-pause").css("display", "block");
         },
         pause:function(){ // the audio is paused!
-            $(".sesc-audio-player.personagem").css("background", "url('../assets/imgs/ilustracao_3.png')");
+            $(".sesc-audio-player.personagem").css("background", "url('./../conteudo/img/fig_podcast_hv.png')");
             $(".sesc-audio-player.personagem .btn-play").css("display", "block");
             $(".sesc-audio-player.personagem .btn-pause").css("display", "none");
         },

@@ -93,14 +93,14 @@ a:hover i{color: #fff;}
   position: absolute;
   bottom: 100px;
   left: 0;
-  right: 50%;
+  right: 30%;
   margin: 0 auto;
   max-height: 50%;
 }
 .elemento_capa3{
   position: absolute;
   bottom: 100px;
-  left: 50%;
+  left: 41%;
   right: 0;
   margin: 0 auto;
   max-height: 50%;
@@ -113,13 +113,13 @@ a:hover i{color: #fff;}
   margin: 0 auto;
 }
 .elemento_capa4{
-  top: 0px;
+  top: 10%;
 }
 .bt_iniciar{
   background-image: url('../../conteudo/img/bt_iniciar.png');
   width: 450px;
   height: 144px;
-  top: 50%;
+  top: 61%;
   transition: all 0.3s;
 }
 .bt_iniciar:hover{
@@ -196,6 +196,47 @@ a:hover i{color: #fff;}
   opacity: 0.8;
   cursor: pointer;
 }
+@media screen and (max-width: 1440px){
+.elemento_capa3 {
+  position: absolute;
+  bottom: 100px;
+  left: 55%;
+  right: 0;
+  margin: 0 auto;
+  max-height: 50%;
+}
+.elemento_capa2 {
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  right: 41%;
+  margin: 0 auto;
+  max-height: 50%;
+}
+
+}
+@media only screen and (max-width: 1366px){
+  .elemento_capa3 {
+    position: absolute;
+    bottom: 100px;
+    left: 52%;
+    right: 0;
+    margin: 0 auto;
+    max-height: 50%;
+}
+.elemento_capa2 {
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  right: 34%;
+  margin: 0 auto;
+  max-height: 50%;
+}
+.elemento_capa4 {
+  max-width: 600px !important;
+}
+}
+
 
 @media screen and (max-width: 1366px){
   .elemento_capa4{
@@ -291,6 +332,9 @@ a:hover i{color: #fff;}
     background-color: #008085;
     background-image: none;
   }
+  .elemento_capa4 {
+    top: 4%;
+}
 }
 /* @media screen and (max-width: 480px){
   body.bg-sesc{

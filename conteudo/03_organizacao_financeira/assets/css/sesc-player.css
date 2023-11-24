@@ -38,10 +38,10 @@
 }
 
 .sesc-audio-player .btn-play{
-    background-image: url(../img/ico-play.png);
+    background-image: url(../../conteudo/img/bt1_podcat.png);
 }
 .sesc-audio-player .btn-play:focus{
-    background-image: url(../img/ico-play_alt.png);
+    background-image: url(../../conteudo/img/bt1_podcat.png);
 }
 .sesc-audio-player .btn-pause{
     background-image: url(../img/ico-pause.png);
@@ -50,10 +50,10 @@
     background-image: url(../img/ico-pause_alt.png);
 }
 .sesc-audio-player .btn-transcricao{
-    background-image: url(../img/ico-transcricao.png);
+    background-image: url(../../conteudo/img/bt2_podcat.png);
 }
 .sesc-audio-player .btn-transcricao:focus{
-    background-image: url(../img/ico-transcricao_alt.png);
+    background-image: url(../../conteudo/img/bt2_podcat.png);
 }
 
 /*estilos da range do player*/
