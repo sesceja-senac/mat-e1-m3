@@ -35,11 +35,11 @@
     box-shadow: 0 1px 3px rgba(0, 0, 0, .3);   
 }
 
-.sesc-audio-player .btn-play{
-    background-image: url(../../conteudo/img/bt1_podcat.png);
+.sesc-audio-player .personagem .btn-play{
+    background-image: url(../../conteudo/img/);
 }
-.sesc-audio-player .btn-play:focus{
-    background-image: url(../../conteudo/img/bt1_podcat.png);
+.sesc-audio-player .personagem .btn-play:focus{
+    background-image: url(../../conteudo/img/);
 }
 .sesc-audio-player .btn-pause{
     background-image: url(../img/ico-pause.png);
@@ -47,11 +47,11 @@
 .sesc-audio-player .btn-pause:focus{
     background-image: url(../img/ico-pause_alt.png);
 }
-.sesc-audio-player .btn-transcricao{
-    background-image: url(../../conteudo/img/bt2_podcat.png);
+.sesc-audio-player .personagem .btn-transcricao{
+    background-image: url(../../conteudo/img/;)
 }
-.sesc-audio-player .btn-transcricao:focus{
-    background-image: url(../../conteudo/img/bt2_podcat.png);
+.sesc-audio-player .personagem .btn-transcricao:focus{
+    background-image: url(../../conteudo/img/);
 }
 
 /*estilos da range do player*/
