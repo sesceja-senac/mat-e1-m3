@@ -462,7 +462,7 @@ footer {
 }
 
 .sesc-audio-player.personagem .btn-play,
-.sesc-audio-player.personagem .btn-pause{
+.sesc-audio-player.personagem .btn-pause {
   bottom: 63px;
   position: absolute;
   left: 100px;
@@ -488,16 +488,19 @@ footer {
   opacity: 0;
 }
 
-.sesc-audio-player .personagem .btn-play{
+.sesc-audio-player .personagem .btn-play {
   background-image: url(../../conteudo/img/bt1_podcat.png);
 }
-.sesc-audio-player .personagem .btn-play:focus{
+
+.sesc-audio-player .personagem .btn-play:focus {
   background-image: url(../../conteudo/img/bt1_podcat.png);
 }
-.sesc-audio-player .personagem .btn-transcricao{
+
+.sesc-audio-player .personagem .btn-transcricao {
   background-image: url(../../conteudo/img/bt2_podcat.png);
 }
-.sesc-audio-player .personagem .btn-transcricao:focus{
+
+.sesc-audio-player .personagem .btn-transcricao:focus {
   background-image: url(../../conteudo/img/bt2_podcat.png);
 }
 
