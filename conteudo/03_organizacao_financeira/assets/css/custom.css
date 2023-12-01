@@ -4,6 +4,12 @@ body {
   background-size: 100%;
 }
 
+@font-face {
+  font-family: 'poppins';
+  src: url('../../../../assets/font/Poppins/Poppins-Bold.ttf') format('woff2');
+}
+.opcao{font-family: 'poppins';}
+
 p {
   word-wrap: break-word;
 }
@@ -197,7 +203,7 @@ p {
 }
 
 .bt_natalia:hover {
-  /* background-image: url('../../conteudo/img/bt_natalia_hv.png'); */
+  scale:1.1
 }
 
 .bt_paulo {
@@ -208,7 +214,7 @@ p {
 }
 
 .bt_paulo:hover {
-  /* background-image: url('../../conteudo/img/bt_paulo_hv.png'); */
+  scale:1.1
 }
 
 .infografico_creditos,
@@ -460,7 +466,9 @@ footer {
   margin: 20px auto;
   position: relative;
 }
-
+.sesc-audio-player.personagem:hover{
+  scale: 1.1;
+}
 .sesc-audio-player.personagem .btn-play,
 .sesc-audio-player.personagem .btn-pause {
   bottom: 63px;
